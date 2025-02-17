@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: 200px 1fr 200px;
+  height: 100vh;
+  gap: 10px;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: aqua;
+  width: 100%;
+}
+
+aside {
+  background-color: khaki;
+  height: 100%;
+}
+
+main {
+  background-color: darkred;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: aqua;
+}
